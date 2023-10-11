@@ -144,6 +144,9 @@
     <EmbeddedResource Include="Forms\FormaVideo1.resx">
       <DependentUpon>FormaVideo1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormaVisor.resx">
+      <DependentUpon>FormaVisor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
