@@ -31,18 +31,19 @@ namespace EjerciciosG.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormaHome));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.videoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registroDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAreaTriangulo = new System.Windows.Forms.ToolStripMenuItem();
             this.pesosEurosDolaresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.latidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fabricaDeTalaveraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ecuaciónDeSegundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.formasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.videoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.registroDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,12 +60,43 @@ namespace EjerciciosG.Forms
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // ayudaToolStripMenuItem
+            // archivoToolStripMenuItem1
             // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
+            this.archivoToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salirToolStripMenuItem});
+            this.archivoToolStripMenuItem1.Name = "archivoToolStripMenuItem1";
+            this.archivoToolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem1.Text = "Archivo";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // formasToolStripMenuItem
+            // 
+            this.formasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.videoToolStripMenuItem,
+            this.registroDeUsuariosToolStripMenuItem});
+            this.formasToolStripMenuItem.Name = "formasToolStripMenuItem";
+            this.formasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.formasToolStripMenuItem.Text = "Formas";
+            // 
+            // videoToolStripMenuItem
+            // 
+            this.videoToolStripMenuItem.Name = "videoToolStripMenuItem";
+            this.videoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.videoToolStripMenuItem.Text = "Video";
+            this.videoToolStripMenuItem.Click += new System.EventHandler(this.videoToolStripMenuItem_Click);
+            // 
+            // registroDeUsuariosToolStripMenuItem
+            // 
+            this.registroDeUsuariosToolStripMenuItem.Name = "registroDeUsuariosToolStripMenuItem";
+            this.registroDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.registroDeUsuariosToolStripMenuItem.Text = "Registro de Usuarios";
+            this.registroDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.registroDeUsuariosToolStripMenuItem_Click);
             // 
             // ejerciciosToolStripMenuItem
             // 
@@ -73,7 +105,8 @@ namespace EjerciciosG.Forms
             this.pesosEurosDolaresToolStripMenuItem,
             this.latidosToolStripMenuItem,
             this.fabricaDeTalaveraToolStripMenuItem,
-            this.ecuaciónDeSegundoGradoToolStripMenuItem});
+            this.ecuaciónDeSegundoGradoToolStripMenuItem,
+            this.visorDeImagenesToolStripMenuItem});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
             this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
@@ -113,43 +146,19 @@ namespace EjerciciosG.Forms
             this.ecuaciónDeSegundoGradoToolStripMenuItem.Text = "Ecuación de segundo Grado";
             this.ecuaciónDeSegundoGradoToolStripMenuItem.Click += new System.EventHandler(this.ecuaciónDeSegundoGradoToolStripMenuItem_Click);
             // 
-            // archivoToolStripMenuItem1
+            // ayudaToolStripMenuItem
             // 
-            this.archivoToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salirToolStripMenuItem});
-            this.archivoToolStripMenuItem1.Name = "archivoToolStripMenuItem1";
-            this.archivoToolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
-            this.archivoToolStripMenuItem1.Text = "Archivo";
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
-            // formasToolStripMenuItem
+            // visorDeImagenesToolStripMenuItem
             // 
-            this.formasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.videoToolStripMenuItem,
-            this.registroDeUsuariosToolStripMenuItem});
-            this.formasToolStripMenuItem.Name = "formasToolStripMenuItem";
-            this.formasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.formasToolStripMenuItem.Text = "Formas";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // videoToolStripMenuItem
-            // 
-            this.videoToolStripMenuItem.Name = "videoToolStripMenuItem";
-            this.videoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.videoToolStripMenuItem.Text = "Video";
-            this.videoToolStripMenuItem.Click += new System.EventHandler(this.videoToolStripMenuItem_Click);
-            // 
-            // registroDeUsuariosToolStripMenuItem
-            // 
-            this.registroDeUsuariosToolStripMenuItem.Name = "registroDeUsuariosToolStripMenuItem";
-            this.registroDeUsuariosToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.registroDeUsuariosToolStripMenuItem.Text = "Registro de Usuarios";
-            this.registroDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.registroDeUsuariosToolStripMenuItem_Click);
+            this.visorDeImagenesToolStripMenuItem.Name = "visorDeImagenesToolStripMenuItem";
+            this.visorDeImagenesToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.visorDeImagenesToolStripMenuItem.Text = "Visor de Imágenes";
+            this.visorDeImagenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImagenesToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
@@ -185,5 +194,6 @@ namespace EjerciciosG.Forms
         private System.Windows.Forms.ToolStripMenuItem formasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem videoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registroDeUsuariosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem visorDeImagenesToolStripMenuItem;
     }
 }

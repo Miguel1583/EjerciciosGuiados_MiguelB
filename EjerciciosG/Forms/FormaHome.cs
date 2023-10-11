@@ -75,5 +75,10 @@ namespace EjerciciosG.Forms
             registro.Show();
             Hide();
         }
+
+        private void visorDeImagenesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
