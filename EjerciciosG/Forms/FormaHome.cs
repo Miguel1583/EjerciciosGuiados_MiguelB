@@ -78,7 +78,9 @@ namespace EjerciciosG.Forms
 
         private void visorDeImagenesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormaVisor visor = new FormaVisor();
+            visor.Show();
+            Hide();
         }
     }
 }
