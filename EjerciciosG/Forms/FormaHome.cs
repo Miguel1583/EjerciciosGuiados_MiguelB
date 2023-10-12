@@ -100,8 +100,8 @@ namespace EjerciciosG.Forms
         private void inisiarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Dispose();
-            Form1 back = new Form1();
-            back.Show();
+            Form1 form1 = new Form1();
+            form1.Show();
         }
     }
 }
