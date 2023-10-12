@@ -50,5 +50,10 @@ namespace EjerciciosG.Forms
             Form1 form1 = new Form1();
             form1.Show();
         }
+
+        private void FormaRegistro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

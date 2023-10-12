@@ -36,17 +36,18 @@ namespace EjerciciosG.Forms
             this.formasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.videoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroDeUsuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inisiarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ejerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAreaTriangulo = new System.Windows.Forms.ToolStripMenuItem();
             this.pesosEurosDolaresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.latidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fabricaDeTalaveraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ecuaciónDeSegundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agradecimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportarErroresOSugerenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inisiarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.linksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,6 +103,13 @@ namespace EjerciciosG.Forms
             this.registroDeUsuariosToolStripMenuItem.Text = "Registro de Usuarios";
             this.registroDeUsuariosToolStripMenuItem.Click += new System.EventHandler(this.registroDeUsuariosToolStripMenuItem_Click);
             // 
+            // inisiarSesiónToolStripMenuItem
+            // 
+            this.inisiarSesiónToolStripMenuItem.Name = "inisiarSesiónToolStripMenuItem";
+            this.inisiarSesiónToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.inisiarSesiónToolStripMenuItem.Text = "Inisiar sesión";
+            this.inisiarSesiónToolStripMenuItem.Click += new System.EventHandler(this.inisiarSesiónToolStripMenuItem_Click);
+            // 
             // ejerciciosToolStripMenuItem
             // 
             this.ejerciciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -150,22 +158,23 @@ namespace EjerciciosG.Forms
             this.ecuaciónDeSegundoGradoToolStripMenuItem.Text = "Ecuación de segundo Grado";
             this.ecuaciónDeSegundoGradoToolStripMenuItem.Click += new System.EventHandler(this.ecuaciónDeSegundoGradoToolStripMenuItem_Click);
             // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agradecimientosToolStripMenuItem,
-            this.reportarErroresOSugerenciasToolStripMenuItem});
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
-            // 
             // visorDeImagenesToolStripMenuItem
             // 
             this.visorDeImagenesToolStripMenuItem.Name = "visorDeImagenesToolStripMenuItem";
             this.visorDeImagenesToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
             this.visorDeImagenesToolStripMenuItem.Text = "Visor de Imágenes";
             this.visorDeImagenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImagenesToolStripMenuItem_Click);
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agradecimientosToolStripMenuItem,
+            this.reportarErroresOSugerenciasToolStripMenuItem,
+            this.linksToolStripMenuItem});
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // agradecimientosToolStripMenuItem
             // 
@@ -181,12 +190,12 @@ namespace EjerciciosG.Forms
             this.reportarErroresOSugerenciasToolStripMenuItem.Text = "Reportar errores u opiniones";
             this.reportarErroresOSugerenciasToolStripMenuItem.Click += new System.EventHandler(this.reportarErroresOSugerenciasToolStripMenuItem_Click);
             // 
-            // inisiarSesiónToolStripMenuItem
+            // linksToolStripMenuItem
             // 
-            this.inisiarSesiónToolStripMenuItem.Name = "inisiarSesiónToolStripMenuItem";
-            this.inisiarSesiónToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.inisiarSesiónToolStripMenuItem.Text = "Inisiar sesión";
-            this.inisiarSesiónToolStripMenuItem.Click += new System.EventHandler(this.inisiarSesiónToolStripMenuItem_Click);
+            this.linksToolStripMenuItem.Name = "linksToolStripMenuItem";
+            this.linksToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.linksToolStripMenuItem.Text = "Links";
+            this.linksToolStripMenuItem.Click += new System.EventHandler(this.linksToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
@@ -226,5 +235,6 @@ namespace EjerciciosG.Forms
         private System.Windows.Forms.ToolStripMenuItem agradecimientosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportarErroresOSugerenciasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inisiarSesiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem linksToolStripMenuItem;
     }
 }

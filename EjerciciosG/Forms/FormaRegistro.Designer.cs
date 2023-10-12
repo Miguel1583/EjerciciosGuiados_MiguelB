@@ -147,7 +147,7 @@ namespace EjerciciosG.Forms
             // 
             this.Registros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.Registros.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Registros.Location = new System.Drawing.Point(730, 422);
+            this.Registros.Location = new System.Drawing.Point(769, 422);
             this.Registros.Name = "Registros";
             this.Registros.Size = new System.Drawing.Size(116, 38);
             this.Registros.TabIndex = 15;
@@ -256,10 +256,11 @@ namespace EjerciciosG.Forms
             this.listBox1.Items.AddRange(new object[] {
             "Objetivos de la app",
             "",
-            "*Resolver varios problemas matematicos."});
+            "*Resolver varios problemas matematicos.",
+            "*Hacer que el usuario modifique una ventana."});
             this.listBox1.Location = new System.Drawing.Point(659, 9);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(196, 95);
+            this.listBox1.Size = new System.Drawing.Size(226, 95);
             this.listBox1.TabIndex = 24;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -367,7 +368,7 @@ namespace EjerciciosG.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(858, 472);
+            this.ClientSize = new System.Drawing.Size(897, 472);
             this.Controls.Add(this.regresar);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label10);
@@ -393,6 +394,7 @@ namespace EjerciciosG.Forms
             this.DoubleBuffered = true;
             this.Name = "FormaRegistro";
             this.Text = "FormaRegistro";
+            this.Load += new System.EventHandler(this.FormaRegistro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);

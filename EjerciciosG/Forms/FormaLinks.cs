@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace EjerciciosG.Forms
 {
-    public partial class Form1 : Form
+    public partial class FormaLinks : Form
     {
-        public Form1()
+        public FormaLinks()
         {
             InitializeComponent();
+        }
+
+        private void regresar_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            FormaHome back = new FormaHome();
+            back.Show();
         }
     }
 }
