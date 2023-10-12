@@ -99,45 +99,53 @@ namespace EjerciciosG.Forms
             // showButton
             // 
             this.showButton.AutoSize = true;
-            this.showButton.Location = new System.Drawing.Point(558, 3);
+            this.showButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.showButton.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showButton.Location = new System.Drawing.Point(540, 3);
             this.showButton.Name = "showButton";
-            this.showButton.Size = new System.Drawing.Size(113, 23);
+            this.showButton.Size = new System.Drawing.Size(131, 25);
             this.showButton.TabIndex = 0;
             this.showButton.Text = "Mostrar una imagen.";
-            this.showButton.UseVisualStyleBackColor = true;
+            this.showButton.UseVisualStyleBackColor = false;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
             // 
             // clearButton
             // 
             this.clearButton.AutoSize = true;
-            this.clearButton.Location = new System.Drawing.Point(459, 3);
+            this.clearButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.clearButton.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.Location = new System.Drawing.Point(421, 3);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(93, 23);
+            this.clearButton.Size = new System.Drawing.Size(113, 25);
             this.clearButton.TabIndex = 1;
             this.clearButton.Text = "Borrar la imagen";
-            this.clearButton.UseVisualStyleBackColor = true;
+            this.clearButton.UseVisualStyleBackColor = false;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // backgroundButton
             // 
             this.backgroundButton.AutoSize = true;
-            this.backgroundButton.Location = new System.Drawing.Point(304, 3);
+            this.backgroundButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.backgroundButton.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backgroundButton.Location = new System.Drawing.Point(230, 3);
             this.backgroundButton.Name = "backgroundButton";
-            this.backgroundButton.Size = new System.Drawing.Size(149, 23);
+            this.backgroundButton.Size = new System.Drawing.Size(185, 25);
             this.backgroundButton.TabIndex = 2;
             this.backgroundButton.Text = "Establecer el color de fondo";
-            this.backgroundButton.UseVisualStyleBackColor = true;
+            this.backgroundButton.UseVisualStyleBackColor = false;
             this.backgroundButton.Click += new System.EventHandler(this.backgroundButton_Click);
             // 
             // closeButton
             // 
             this.closeButton.AutoSize = true;
-            this.closeButton.Location = new System.Drawing.Point(223, 3);
+            this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.closeButton.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeButton.Location = new System.Drawing.Point(149, 3);
             this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(75, 23);
+            this.closeButton.Size = new System.Drawing.Size(75, 25);
             this.closeButton.TabIndex = 3;
             this.closeButton.Text = "Cerrar";
-            this.closeButton.UseVisualStyleBackColor = true;
+            this.closeButton.UseVisualStyleBackColor = false;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // openFileDialog1

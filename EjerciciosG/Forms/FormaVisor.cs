@@ -38,7 +38,9 @@ namespace EjerciciosG.Forms
 
         private void closeButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Dispose();
+            FormaHome back = new FormaHome();
+            back.Show();
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

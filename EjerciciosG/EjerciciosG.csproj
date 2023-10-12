@@ -58,6 +58,12 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormaAgradecimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormaAgradecimientos.Designer.cs">
+      <DependentUpon>FormaAgradecimientos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormaEcuación2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,12 @@
     </Compile>
     <Compile Include="Forms\FormaLatidos.Designer.cs">
       <DependentUpon>FormaLatidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormaOpiniones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormaOpiniones.Designer.cs">
+      <DependentUpon>FormaOpiniones.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormaPED.cs">
       <SubType>Form</SubType>
@@ -120,6 +132,9 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormaAgradecimientos.resx">
+      <DependentUpon>FormaAgradecimientos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormaEcuación2.resx">
       <DependentUpon>FormaEcuación2.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormaLatidos.resx">
       <DependentUpon>FormaLatidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormaOpiniones.resx">
+      <DependentUpon>FormaOpiniones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormaPED.resx">
       <DependentUpon>FormaPED.cs</DependentUpon>

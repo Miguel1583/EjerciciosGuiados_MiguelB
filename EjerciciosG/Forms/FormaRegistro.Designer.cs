@@ -56,6 +56,7 @@ namespace EjerciciosG.Forms
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.regresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -347,6 +348,19 @@ namespace EjerciciosG.Forms
             this.panel1.Size = new System.Drawing.Size(196, 205);
             this.panel1.TabIndex = 30;
             // 
+            // regresar
+            // 
+            this.regresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.regresar.ForeColor = System.Drawing.Color.Black;
+            this.regresar.Location = new System.Drawing.Point(12, 433);
+            this.regresar.Name = "regresar";
+            this.regresar.Size = new System.Drawing.Size(91, 27);
+            this.regresar.TabIndex = 36;
+            this.regresar.Text = "Regresar";
+            this.regresar.UseVisualStyleBackColor = false;
+            this.regresar.Click += new System.EventHandler(this.regresar_Click);
+            // 
             // FormaRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -354,6 +368,7 @@ namespace EjerciciosG.Forms
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(858, 472);
+            this.Controls.Add(this.regresar);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -415,5 +430,6 @@ namespace EjerciciosG.Forms
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button regresar;
     }
 }

@@ -44,6 +44,9 @@ namespace EjerciciosG.Forms
             this.ecuaciónDeSegundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agradecimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportarErroresOSugerenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inisiarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +74,7 @@ namespace EjerciciosG.Forms
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -79,7 +82,8 @@ namespace EjerciciosG.Forms
             // 
             this.formasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.videoToolStripMenuItem,
-            this.registroDeUsuariosToolStripMenuItem});
+            this.registroDeUsuariosToolStripMenuItem,
+            this.inisiarSesiónToolStripMenuItem});
             this.formasToolStripMenuItem.Name = "formasToolStripMenuItem";
             this.formasToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.formasToolStripMenuItem.Text = "Formas";
@@ -148,6 +152,9 @@ namespace EjerciciosG.Forms
             // 
             // ayudaToolStripMenuItem
             // 
+            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agradecimientosToolStripMenuItem,
+            this.reportarErroresOSugerenciasToolStripMenuItem});
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
@@ -159,6 +166,27 @@ namespace EjerciciosG.Forms
             this.visorDeImagenesToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
             this.visorDeImagenesToolStripMenuItem.Text = "Visor de Imágenes";
             this.visorDeImagenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImagenesToolStripMenuItem_Click);
+            // 
+            // agradecimientosToolStripMenuItem
+            // 
+            this.agradecimientosToolStripMenuItem.Name = "agradecimientosToolStripMenuItem";
+            this.agradecimientosToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.agradecimientosToolStripMenuItem.Text = "Agradecimientos";
+            this.agradecimientosToolStripMenuItem.Click += new System.EventHandler(this.agradecimientosToolStripMenuItem_Click);
+            // 
+            // reportarErroresOSugerenciasToolStripMenuItem
+            // 
+            this.reportarErroresOSugerenciasToolStripMenuItem.Name = "reportarErroresOSugerenciasToolStripMenuItem";
+            this.reportarErroresOSugerenciasToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.reportarErroresOSugerenciasToolStripMenuItem.Text = "Reportar errores u opiniones";
+            this.reportarErroresOSugerenciasToolStripMenuItem.Click += new System.EventHandler(this.reportarErroresOSugerenciasToolStripMenuItem_Click);
+            // 
+            // inisiarSesiónToolStripMenuItem
+            // 
+            this.inisiarSesiónToolStripMenuItem.Name = "inisiarSesiónToolStripMenuItem";
+            this.inisiarSesiónToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.inisiarSesiónToolStripMenuItem.Text = "Inisiar sesión";
+            this.inisiarSesiónToolStripMenuItem.Click += new System.EventHandler(this.inisiarSesiónToolStripMenuItem_Click);
             // 
             // FormaHome
             // 
@@ -195,5 +223,8 @@ namespace EjerciciosG.Forms
         private System.Windows.Forms.ToolStripMenuItem videoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registroDeUsuariosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visorDeImagenesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agradecimientosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportarErroresOSugerenciasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inisiarSesiónToolStripMenuItem;
     }
 }

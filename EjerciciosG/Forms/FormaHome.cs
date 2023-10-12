@@ -82,5 +82,26 @@ namespace EjerciciosG.Forms
             visor.Show();
             Hide();
         }
+
+        private void agradecimientosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaAgradecimientos agra = new FormaAgradecimientos();
+            agra.Show();
+            Hide();
+        }
+
+        private void reportarErroresOSugerenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaOpiniones op = new FormaOpiniones();
+            op.Show();
+            Hide();
+        }
+
+        private void inisiarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            Form1 back = new Form1();
+            back.Show();
+        }
     }
 }
