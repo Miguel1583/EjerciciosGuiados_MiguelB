@@ -113,6 +113,7 @@ namespace EjerciciosG.Forms
 
         private void juegoDeFormarParejasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Dispose();
             FormaJuego juego = new FormaJuego();
             juego.Show();
         }

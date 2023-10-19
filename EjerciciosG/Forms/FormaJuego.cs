@@ -102,8 +102,15 @@ namespace EjerciciosG.Forms
                 }
             }
 
-            MessageBox.Show("You matched all the icons!", "Congratulations");
+            MessageBox.Show("Felicidades venciste a tu rival", "Ganaste");
             Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            FormaHome back = new FormaHome();
+            back.Show();
         }
     }
 }
