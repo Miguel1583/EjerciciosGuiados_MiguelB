@@ -103,6 +103,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -119,6 +127,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -338,7 +362,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:EjerciciosMiguelB"
         "ProductCode" = "8:{EBB5E4B2-E917-4BC4-B358-D454BF354C44}"
-        "PackageCode" = "8:{04E038E4-849A-41B3-B080-6AB0FF3BF740}"
+        "PackageCode" = "8:{FCF59D94-8C80-4C4C-87E5-F53D15866F3E}"
         "UpgradeCode" = "8:{8216A883-BD90-4373-835C-D9C6E9C1D909}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -887,7 +911,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_31823A69D8D64EC8A488D68BA2E030E0"
             {
-            "SourcePath" = "8:..\\EjerciciosG\\obj\\Debug\\EjerciciosG.exe"
+            "SourcePath" = "8:..\\EjerciciosG\\obj\\Release\\EjerciciosG.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_712602AC00644E1FBE9F6DC03CA240FC"
@@ -915,7 +939,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6EBC50C3D4DE43379661D4941781B1C0"
             {
-            "SourcePath" = "8:..\\EjerciciosG\\obj\\Debug\\EjerciciosG.exe"
+            "SourcePath" = "8:..\\EjerciciosG\\obj\\Release\\EjerciciosG.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_712602AC00644E1FBE9F6DC03CA240FC"
