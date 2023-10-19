@@ -44,12 +44,12 @@ namespace EjerciciosG.Forms
             this.fabricaDeTalaveraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ecuaciónDeSegundoGradoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visorDeImagenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pruebaMatemáticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.juegoDeFormarParejasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agradecimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportarErroresOSugerenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pruebaMatemáticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.juegoDeFormarParejasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,11 +73,12 @@ namespace EjerciciosG.Forms
             this.archivoToolStripMenuItem1.Name = "archivoToolStripMenuItem1";
             this.archivoToolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem1.Text = "Archivo";
+            this.archivoToolStripMenuItem1.Click += new System.EventHandler(this.archivoToolStripMenuItem1_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -169,6 +170,19 @@ namespace EjerciciosG.Forms
             this.visorDeImagenesToolStripMenuItem.Text = "Visor de Imágenes";
             this.visorDeImagenesToolStripMenuItem.Click += new System.EventHandler(this.visorDeImagenesToolStripMenuItem_Click);
             // 
+            // pruebaMatemáticaToolStripMenuItem
+            // 
+            this.pruebaMatemáticaToolStripMenuItem.Name = "pruebaMatemáticaToolStripMenuItem";
+            this.pruebaMatemáticaToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.pruebaMatemáticaToolStripMenuItem.Text = "Prueba matemática";
+            // 
+            // juegoDeFormarParejasToolStripMenuItem
+            // 
+            this.juegoDeFormarParejasToolStripMenuItem.Name = "juegoDeFormarParejasToolStripMenuItem";
+            this.juegoDeFormarParejasToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.juegoDeFormarParejasToolStripMenuItem.Text = "Juego de Formar parejas";
+            this.juegoDeFormarParejasToolStripMenuItem.Click += new System.EventHandler(this.juegoDeFormarParejasToolStripMenuItem_Click);
+            // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -200,19 +214,6 @@ namespace EjerciciosG.Forms
             this.linksToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
             this.linksToolStripMenuItem.Text = "Links";
             this.linksToolStripMenuItem.Click += new System.EventHandler(this.linksToolStripMenuItem_Click);
-            // 
-            // pruebaMatemáticaToolStripMenuItem
-            // 
-            this.pruebaMatemáticaToolStripMenuItem.Name = "pruebaMatemáticaToolStripMenuItem";
-            this.pruebaMatemáticaToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.pruebaMatemáticaToolStripMenuItem.Text = "Prueba matemática";
-            // 
-            // juegoDeFormarParejasToolStripMenuItem
-            // 
-            this.juegoDeFormarParejasToolStripMenuItem.Name = "juegoDeFormarParejasToolStripMenuItem";
-            this.juegoDeFormarParejasToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.juegoDeFormarParejasToolStripMenuItem.Text = "Juego de Formar parejas";
-            this.juegoDeFormarParejasToolStripMenuItem.Click += new System.EventHandler(this.juegoDeFormarParejasToolStripMenuItem_Click);
             // 
             // FormaHome
             // 

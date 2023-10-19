@@ -116,5 +116,15 @@ namespace EjerciciosG.Forms
             FormaJuego juego = new FormaJuego();
             juego.Show();
         }
+
+        private void creditosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void archivoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
