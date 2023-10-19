@@ -47,8 +47,10 @@ namespace EjerciciosG.Forms
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.labelTiempo = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,6 +80,8 @@ namespace EjerciciosG.Forms
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.button1, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.labelTiempo, 2, 4);
+            this.tableLayoutPanel1.Controls.Add(this.button2, 3, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -94,7 +98,7 @@ namespace EjerciciosG.Forms
             // 
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label16.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label16.Location = new System.Drawing.Point(402, 354);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(126, 114);
@@ -107,7 +111,7 @@ namespace EjerciciosG.Forms
             // 
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label15.Location = new System.Drawing.Point(270, 354);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(123, 114);
@@ -120,7 +124,7 @@ namespace EjerciciosG.Forms
             // 
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label14.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label14.Location = new System.Drawing.Point(139, 354);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(122, 114);
@@ -133,7 +137,7 @@ namespace EjerciciosG.Forms
             // 
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label13.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label13.Location = new System.Drawing.Point(6, 354);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(124, 114);
@@ -146,7 +150,7 @@ namespace EjerciciosG.Forms
             // 
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label12.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.ForeColor = System.Drawing.Color.Red;
             this.label12.Location = new System.Drawing.Point(402, 237);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(126, 114);
@@ -159,7 +163,7 @@ namespace EjerciciosG.Forms
             // 
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label11.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.ForeColor = System.Drawing.Color.Red;
             this.label11.Location = new System.Drawing.Point(270, 237);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(123, 114);
@@ -172,7 +176,7 @@ namespace EjerciciosG.Forms
             // 
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.ForeColor = System.Drawing.Color.Red;
             this.label10.Location = new System.Drawing.Point(139, 237);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(122, 114);
@@ -185,7 +189,7 @@ namespace EjerciciosG.Forms
             // 
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.Color.Red;
             this.label9.Location = new System.Drawing.Point(6, 237);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(124, 114);
@@ -198,7 +202,7 @@ namespace EjerciciosG.Forms
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.ForeColor = System.Drawing.Color.Blue;
             this.label8.Location = new System.Drawing.Point(402, 120);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(126, 114);
@@ -211,7 +215,7 @@ namespace EjerciciosG.Forms
             // 
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.ForeColor = System.Drawing.Color.Blue;
             this.label7.Location = new System.Drawing.Point(270, 120);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(123, 114);
@@ -224,7 +228,7 @@ namespace EjerciciosG.Forms
             // 
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.ForeColor = System.Drawing.Color.Blue;
             this.label6.Location = new System.Drawing.Point(139, 120);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 114);
@@ -237,7 +241,7 @@ namespace EjerciciosG.Forms
             // 
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.Blue;
             this.label5.Location = new System.Drawing.Point(6, 120);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(124, 114);
@@ -298,15 +302,10 @@ namespace EjerciciosG.Forms
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // timer1
-            // 
-            this.timer1.Interval = 750;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.BackColor = System.Drawing.Color.Maroon;
+            this.button1.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(6, 474);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 22);
@@ -314,6 +313,31 @@ namespace EjerciciosG.Forms
             this.button1.Text = "Regresar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // labelTiempo
+            // 
+            this.labelTiempo.AutoSize = true;
+            this.labelTiempo.BackColor = System.Drawing.Color.White;
+            this.labelTiempo.Location = new System.Drawing.Point(270, 471);
+            this.labelTiempo.Name = "labelTiempo";
+            this.labelTiempo.Size = new System.Drawing.Size(34, 13);
+            this.labelTiempo.TabIndex = 17;
+            this.labelTiempo.Text = "00:00";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(402, 474);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 18;
+            this.button2.Text = "Temporizador";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 750;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FormaJuego
             // 
@@ -324,6 +348,7 @@ namespace EjerciciosG.Forms
             this.Name = "FormaJuego";
             this.Text = "Memorama";
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -349,5 +374,7 @@ namespace EjerciciosG.Forms
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelTiempo;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -12,6 +12,8 @@ namespace EjerciciosG.Forms
 {
     public partial class FormaJuego : Form
     {
+      
+
         Random random = new Random();
 
         List<string> icons = new List<string>()
@@ -40,6 +42,9 @@ namespace EjerciciosG.Forms
             InitializeComponent();
 
                 AssignIconsToSquares();
+
+            timer.Interval = 1000;
+            timer.Tick += new EventHandler(timer_Tick);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -111,6 +116,11 @@ namespace EjerciciosG.Forms
             this.Dispose();
             FormaHome back = new FormaHome();
             back.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
