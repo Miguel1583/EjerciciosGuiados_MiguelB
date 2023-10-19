@@ -70,6 +70,12 @@
     <Compile Include="Forms\FormaHome.Designer.cs">
       <DependentUpon>FormaHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormaJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormaJuego.Designer.cs">
+      <DependentUpon>FormaJuego.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormaLatidos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormaHome.resx">
       <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormaJuego.resx">
+      <DependentUpon>FormaJuego.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormaLatidos.resx">
       <DependentUpon>FormaLatidos.cs</DependentUpon>

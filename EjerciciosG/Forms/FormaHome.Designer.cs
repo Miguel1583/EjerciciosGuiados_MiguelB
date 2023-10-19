@@ -48,6 +48,8 @@ namespace EjerciciosG.Forms
             this.agradecimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportarErroresOSugerenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pruebaMatemáticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.juegoDeFormarParejasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +77,7 @@ namespace EjerciciosG.Forms
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -118,7 +120,9 @@ namespace EjerciciosG.Forms
             this.latidosToolStripMenuItem,
             this.fabricaDeTalaveraToolStripMenuItem,
             this.ecuaciónDeSegundoGradoToolStripMenuItem,
-            this.visorDeImagenesToolStripMenuItem});
+            this.visorDeImagenesToolStripMenuItem,
+            this.pruebaMatemáticaToolStripMenuItem,
+            this.juegoDeFormarParejasToolStripMenuItem});
             this.ejerciciosToolStripMenuItem.Name = "ejerciciosToolStripMenuItem";
             this.ejerciciosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.ejerciciosToolStripMenuItem.Text = "Ejercicios";
@@ -197,6 +201,19 @@ namespace EjerciciosG.Forms
             this.linksToolStripMenuItem.Text = "Links";
             this.linksToolStripMenuItem.Click += new System.EventHandler(this.linksToolStripMenuItem_Click);
             // 
+            // pruebaMatemáticaToolStripMenuItem
+            // 
+            this.pruebaMatemáticaToolStripMenuItem.Name = "pruebaMatemáticaToolStripMenuItem";
+            this.pruebaMatemáticaToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.pruebaMatemáticaToolStripMenuItem.Text = "Prueba matemática";
+            // 
+            // juegoDeFormarParejasToolStripMenuItem
+            // 
+            this.juegoDeFormarParejasToolStripMenuItem.Name = "juegoDeFormarParejasToolStripMenuItem";
+            this.juegoDeFormarParejasToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.juegoDeFormarParejasToolStripMenuItem.Text = "Juego de Formar parejas";
+            this.juegoDeFormarParejasToolStripMenuItem.Click += new System.EventHandler(this.juegoDeFormarParejasToolStripMenuItem_Click);
+            // 
             // FormaHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -236,5 +253,7 @@ namespace EjerciciosG.Forms
         private System.Windows.Forms.ToolStripMenuItem reportarErroresOSugerenciasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inisiarSesiónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem linksToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pruebaMatemáticaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem juegoDeFormarParejasToolStripMenuItem;
     }
 }

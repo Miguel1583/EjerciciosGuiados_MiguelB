@@ -110,5 +110,11 @@ namespace EjerciciosG.Forms
             FormaLinks links = new FormaLinks();
             links.Show();
         }
+
+        private void juegoDeFormarParejasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaJuego juego = new FormaJuego();
+            juego.Show();
+        }
     }
 }
