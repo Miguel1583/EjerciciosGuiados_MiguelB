@@ -23,6 +23,7 @@ namespace EjerciciosG.Forms
     };
         private void AssignIconsToSquares()
         {
+
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 Label iconLabel = control as Label;
@@ -30,6 +31,9 @@ namespace EjerciciosG.Forms
                 {
                     int randomNumber = random.Next(icons.Count);
                     iconLabel.Text = icons[randomNumber];
+                    string v = icons[randomNumber];
+                    iconLabel.Text = v;
+
                     icons.RemoveAt(randomNumber);
                 }
             }
@@ -41,10 +45,7 @@ namespace EjerciciosG.Forms
         {
             InitializeComponent();
 
-                AssignIconsToSquares();
-
-            timer.Interval = 1000;
-            timer.Tick += new EventHandler(timer_Tick);
+            AssignIconsToSquares();
         }
 
         private void label1_Click(object sender, EventArgs e)
